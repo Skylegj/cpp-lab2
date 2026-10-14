@@ -79,8 +79,8 @@ int main() {
         density = molarMass * pressure / (gasConstant * temperature);
 
         cout << height << " "
-            << pressure << " "
-            << density << endl;
+             << pressure << " "
+             << density << endl;
 
         height += secondHeightStep;
         ++heightIndex;
